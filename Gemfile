@@ -35,7 +35,7 @@ gem 'spring',        group: :development
 
 group :test, :development do
   gem "rspec-rails"
-  gem "capybara"
+  gem "capybara", ">= 3.6.0"
   gem "selenium-webdriver"
   gem "better_errors"
   gem "binding_of_caller"
