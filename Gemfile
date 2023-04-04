@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
@@ -12,7 +12,7 @@ gem 'coffee-rails'
 # gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -37,7 +37,7 @@ group :test, :development do
   gem "rspec-rails"
   gem "capybara"
   gem "selenium-webdriver"
-  gem "better_errors"
+  gem "better_errors", ">= 2.8.0"
   gem "binding_of_caller"
   gem "factory_bot"
   gem "simplecov"
@@ -48,4 +48,4 @@ gem 'sqlite3', '~> 1.3.6'
   gem "thin"
 end
 
-gem "bootstrap-sass"
+gem "bootstrap-sass", ">= 3.4.0"
