@@ -39,7 +39,7 @@ group :test, :development do
   gem "selenium-webdriver"
   gem "better_errors"
   gem "binding_of_caller"
-  gem "factory_bot"
+  gem "factory_bot", ">= 6.5.1"
   gem "simplecov"
   gem "database_cleaner"
 gem 'sqlite3', '~> 1.3.6'
